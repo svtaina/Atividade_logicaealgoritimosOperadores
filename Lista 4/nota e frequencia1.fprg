@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 10:41:00 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjEwOjEzOjI0ICI7Mjg1OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjEwOjE3OjQzICI7MjtEZXZfMW9fQW5vO0ROUzExODEyNjA3ODc7MjAyNi0wNC0xMzsiMDM6MzE6NDMgIjtNZWRpYSBkYXMgbm90YXM2LmZwcmc7Nzg4Ng=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjEwOjQxOjAwICI7MjsyOTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota, frequencia" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a nota: &quot;" newline="True"/>
+            <input variable="nota"/>
+            <output expression="&quot;Digite a frequ&#234;ncia: &quot;" newline="True"/>
+            <input variable="frequencia"/>
+            <if expression="(nota &gt;= 7) and (frequencia &gt;= 0.75)">
+                <then>
+                    <output expression="&quot; aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

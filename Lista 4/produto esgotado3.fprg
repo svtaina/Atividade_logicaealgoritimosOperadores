@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 11:19:11 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjEwOjUyOjM2ICI7Mjg2NA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjEwOjUzOjU1ICI7MTtEZXZfMW9fQW5vO0ROUzExODEyNjA3ODc7MjAyNi0wNC0xNDsiMTA6MTM6MjQgIjtub3RhIGUgZnJlcXVlbmNpYTEuZnByZzs4MTM0"/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjExOjE5OjExICI7MjsyOTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="esgotado" type="String" array="False" size=""/>
+            <output expression="&quot;O produto est&#225; esgotado: (s/n) &quot;" newline="True"/>
+            <input variable="esgotado"/>
+            <if expression="esgotado = &quot;n&quot;">
+                <then>
+                    <output expression="&quot;Por favor, reabaste&#231;a o estoque&quot;" newline="True"/>
+                    <output expression="&quot;C&#243;digo de venda execultado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Produto dispon&#237;vel para venda&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

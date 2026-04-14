@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 01:55:09 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjExOjIwOjE3ICI7Mjg1OQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjExOjIwOjIzICI7MTtEZXZfMW9fQW5vO0ROUzExODEyNjA3ODc7MjAyNi0wNC0xNDsiMTA6NTI6MzYgIjtwcm9kdXRvIGVzZ290YWRvMy5mcHJnOzgxNDE="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzg3OzIwMjYtMDQtMTQ7IjAxOjU1OjA5ICI7MjsyOTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <declare name="fiador, nomeSujo" type="String" array="False" size=""/>
+            <output expression="&quot;Informe o sal&#225;rio do cliente &quot;" newline="True"/>
+            <input variable="salario"/>
+            <output expression="&quot;Possui fiador? (s/n)&quot;" newline="True"/>
+            <input variable="fiador"/>
+            <output expression="&quot;Tem nome sujo? (s/n)&quot;" newline="True"/>
+            <input variable="nomeSujo"/>
+            <if expression="((salario &gt; 2000) or (fiador = &quot;s&quot;)) and (nomeSujo = &quot;n&quot;)">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Negada&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
