@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 01:45:12 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTQ7IjExOjAyOjQwICI7Mjg0OQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI2OzIwMjYtMDQtMTQ7IjAxOjQ1OjEyICI7MjsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <declare name="JavaScript, Python" type="String" array="False" size=""/>
+            <output expression="&quot;Responda as perguntas para o processo seletivo&quot;" newline="True"/>
+            <output expression="&quot;Qual &#233; a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="(&quot;Voc&#234; tem conhecimento em linguagem JavaScript?&quot;)" newline="True"/>
+            <input variable="JavaScript"/>
+            <output expression="(&quot;Voc&#234; tem conhecimento em linguagem Python? &quot;)" newline="True"/>
+            <input variable="Python"/>
+            <if expression="idade&gt;=18 and JavaScript= &quot;sim&quot; or Python= &quot;sim&quot;">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; passou da primeira fase do processo seletivo!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelimente voc&#234; n&#227;o apresenta ter os requis&#237;tos esperados.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
